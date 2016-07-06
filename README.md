@@ -19,10 +19,10 @@ To use user scripts you need to first install a user script manager.
 
 Removes ad banners on NNM Club and Rustorka missed by ad blocker. Designed for Chromium-based browsers (Google Chrome, Opera etc.).
 
-**Install [directly](/NNM Club and Rustorka ad remover.user.js) or from [Greasy Fork](https://greasyfork.org/ru/scripts/21174-nnm-club-and-rustorka-ad-remover)**
+**Install [directly](https://github.com/hant0508/usescripts/raw/master/NNM%20Club%20and%20Rustorka%20ad%20remover.user.js) or from [Greasy Fork](https://greasyfork.org/ru/scripts/21174-nnm-club-and-rustorka-ad-remover)**
 
 #### Etarg ad remover
 
 Removes etarg ad banners missed by ad blocker. Designed for Chromium-based browsers (Google Chrome, Opera etc.). 
 
-**Install [directly](/Etarg ad remover.user.js) or from [Greasy Fork](https://greasyfork.org/ru/scripts/21178-etarg-ad-remover)**
+**Install [directly](https://github.com/hant0508/usescripts/raw/master/Etarg%20ad%20remover.user.js) or from [Greasy Fork](https://greasyfork.org/ru/scripts/21178-etarg-ad-remover)**
