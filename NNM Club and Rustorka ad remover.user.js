@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         NNM and Rustorka ad remover
+// @name         NNM Club and Rustorka ad remover
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Removes ad banners by marketgid/tovarro on nnmclub.to and rustorka.com (use with Ublock Origin or Adblock Plus)
 // @author       hant0508
 // @include      /^https?://nnmclub.to/*/
-// @include      /^https?://rustorka.to/*/
+// @include      /^https?://rustorka.com/*/
 // @grant        none
 // ==/UserScript==
 
