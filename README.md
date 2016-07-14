@@ -1,3 +1,5 @@
+Language: **[Русский](/README.rus.md)|English**
+
 # Usescripts
 
 #### What are user scripts?
@@ -13,16 +15,16 @@ To use user scripts you need to first install a user script manager.
 * Google Chrome, Chromium, and related browsers: [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * Opera (version 15 and later): [Tampermonkey](https://addons.opera.com/en/extensions/details/tampermonkey-beta/) or [Violentmonkey](https://addons.opera.com/en/extensions/details/violent-monkey/)
 
-### List of scripts
+## List of scripts
 
 #### NNM Club and Rustorka ad remover
 
 Removes ad banners on NNM Club and Rustorka missed by ad blocker. Designed for Chromium-based browsers (Google Chrome, Opera etc.).
 
-**Install [directly](https://github.com/hant0508/usescripts/raw/master/NNM%20Club%20and%20Rustorka%20ad%20remover.user.js) or from [Greasy Fork](https://greasyfork.org/ru/scripts/21174-nnm-club-and-rustorka-ad-remover)**
+**Install [directly](https://github.com/hant0508/usescripts/raw/master/NNM%20Club%20and%20Rustorka%20ad%20remover.user.js) or see on [Greasy Fork](https://greasyfork.org/en/scripts/21174-nnm-club-and-rustorka-ad-remover)**
 
 #### Etarg ad remover
 
 Removes etarg ad banners missed by ad blocker. Designed for Chromium-based browsers (Google Chrome, Opera etc.). 
 
-**Install [directly](https://github.com/hant0508/usescripts/raw/master/Etarg%20ad%20remover.user.js) or from [Greasy Fork](https://greasyfork.org/ru/scripts/21178-etarg-ad-remover)**
+**Install [directly](https://github.com/hant0508/usescripts/raw/master/Etarg%20ad%20remover.user.js) or see on [Greasy Fork](https://greasyfork.org/en/scripts/21178-etarg-ad-remover)**
