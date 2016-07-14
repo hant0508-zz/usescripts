@@ -1,4 +1,4 @@
-Language: **Русский|[English](/README.MD)**
+Language: **Русский|[English](/README.md)**
 # Userscripts
 
 #### Что такое пользовательские скрипты?
