@@ -11,7 +11,7 @@ Language: **Русский|[English](/README.md)**
 Чтобы начать пользоваться скриптами, нужно установить в браузер специальное расширение.
 
 * Firefox и похожие браузеры: [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey/)
-* Google Chrome, Chromium и похожие браузеры: [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/fhkhppodidkmpkgcjioadlkgkdpahnkg?hl=ru)
+* Google Chrome, Chromium и похожие браузеры: [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/)
 * Opera (версия 15+): [Tampermonkey](https://addons.opera.com/ru/extensions/details/tampermonkey-beta/) или [Violentmonkey](https://addons.opera.com/ru/extensions/details/violent-monkey/)
 
 ## Список скриптов
