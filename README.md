@@ -25,6 +25,6 @@ Removes ad banners on NNM Club and Rustorka missed by ad blocker. Designed for C
 
 ### Etarg ad remover
 
-Removes etarg ad banners on many websites missed by ad blocker. Designed for Chromium-based browsers (Google Chrome, Opera etc.). 
+Removes etarg and traforet ad banners on many websites missed by ad blocker. Designed for Chromium-based browsers (Google Chrome, Opera etc.). 
 
 **Install [directly](https://github.com/hant0508/usescripts/raw/master/Etarg%20ad%20remover.user.js) or see on [Greasy Fork](https://greasyfork.org/en/scripts/21178-etarg-ad-remover)**
