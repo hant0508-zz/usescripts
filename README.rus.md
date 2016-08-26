@@ -25,7 +25,7 @@ Language: **Русский|[English](/README.md)**
 
 ### Etarg ad remover
 
-Удаляет рекламные баннеры от etarg на множестве сайтов, пропущенные блокировщиком рекламы. Разработан для Chromium-based браузеров
-(Google Chrome, Opera и т.д.).
+Удаляет рекламные баннеры от etarg и traforet на множестве сайтов, пропущенные блокировщиком рекламы. Разработан для Chromium-based
+браузеров (Google Chrome, Opera и т.д.).
 
 **Установить [сразу](https://github.com/hant0508/usescripts/raw/master/Etarg%20ad%20remover.user.js) или посмотреть на [Greasy Fork](https://greasyfork.org/ru/scripts/21178-etarg-ad-remover)**
