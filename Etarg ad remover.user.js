@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Etarg ad remover
 // @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  Removes ad banners by etarg and traforet (use with Ublock Origin or Adblock Plus)
+// @version      0.3
+// @description  Removes etarg and traforet ad banners (use with Ublock Origin or Adblock Plus)
 // @author       hant0508
 // @include      *
 // @grant        none
