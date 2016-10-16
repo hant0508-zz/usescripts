@@ -27,7 +27,7 @@ function rem()
 function xpath()
 {
     var time;
-    var regex1 = "/html/body//div[./div/div/div/div/a[contains(@href, 'marketgid') or contains(@href, 'tovarro')]]";
+    var regex1 = "/html/body//div[@id!="body_container" and ./div/div/div/div/a[contains(@href, 'marketgid') or contains(@href, 'tovarro')]]";
     var regex2 = "/html/body/*[1 and .//a[contains(@href, 'bgrndi.com') or contains(@href, 'traforet.com')]]";
     var regex3 = "/html/body//div[@id=\"page_container\"]/div//opan[a]";
     var regex = [regex1, regex2, regex3];
