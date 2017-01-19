@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Disables 30 seconds timer on ru.onlinemschool.com (use with Ublock Origin or Adblock Plus)
 // @author       hant0508
-// @include      http://ru.onlinemschool.com
+// @include      http://ru.onlinemschool.com/*
 // @grant        none
 // ==/UserScript==
 
