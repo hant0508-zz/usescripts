@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OMS disable timeout
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Disables 30 seconds timer on ru.onlinemschool.com (use with Ublock Origin or Adblock Plus)
 // @author       hant0508
 // @include      http://ru.onlinemschool.com/*
