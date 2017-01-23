@@ -29,7 +29,7 @@ function setTime(postTime) {
 
         if (time % 100 < 10 || time % 100 > 20) {
             if (time % 10 == 1) sec += "a";
-            else if (time % 10 < 5) sec += "ы";
+            else if (time % 10 < 5 && time % 10) sec += "ы";
         }
         comments[i].innerHTML += ' (' + time + sec + ')';
     }
