@@ -10,10 +10,9 @@
 // ==/UserScript==
 
 function setTime(now) {
-    var comments = document.getElementsByClassName('b-comment__time');
     for (var i = 0; i < comments.length; ++i)
     {
-        var time = now - comments[i].getAttribute('datetime');
+        var time = now - seconds[i];
         var sec = ' секунд';
 
         if (time % 100 < 10 || time % 100 > 20) {
@@ -22,8 +21,18 @@ function setTime(now) {
         }
         
         sec += ' назад';
-        comments[i].innerHTML += ' (' + time + sec + ')';
+        comments[i].firstChild.innerHTML = ' (' + time + sec + ')';
     }
+    window.setTimeout (setTime(Math.floor(Date.now()/1000)), 1000);
 }
 
-window.setTimeout (setTime(Math.floor(Date.now()/1000)), 1000);
+var seconds = [];
+var comments = document.getElementsByClassName('b-comment__time');
+var span = document.createElement('span');
+for (var i = 0; i < comments.length; ++i)
+{
+    seconds[i] = comments[i].getAttribute('datetime');
+    comments[i].appendChild(span);
+}
+
+setTime(Math.floor(Date.now()/1000));
