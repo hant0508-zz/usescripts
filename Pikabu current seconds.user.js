@@ -23,7 +23,7 @@ function setTime(now) {
         sec += ' назад';
         comments[i].firstChild.innerHTML = ' (' + time + sec + ')';
     }
-    window.setTimeout (setTime(Math.floor(Date.now()/1000)), 1000);
+    window.setTimeout (function(){setTime(Math.floor(Date.now()/1000));}, 1000);
 }
 
 var seconds = [];
