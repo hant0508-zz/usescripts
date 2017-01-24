@@ -6,7 +6,6 @@
 // @author       hant0508
 // @match        http://pikabu.ru/story/*
 // @grant        none
-// @run-at       document-idle
 // ==/UserScript==
 
 function setTime(now) {
@@ -19,20 +18,19 @@ function setTime(now) {
             if (time % 10 == 1) sec += "a";
             else if (time % 10 < 5 && time % 10) sec += "ы";
         }
-        
+
         sec += ' назад';
-        comments[i].firstChild.innerHTML = ' (' + time + sec + ')';
+        comments[i].getElementsByClassName('current_seconds')[0].innerHTML = ' (' + time + sec + ')';
     }
-    window.setTimeout (function(){setTime(Math.floor(Date.now()/1000));}, 1000);
+    window.setTimeout (function(){setTime(Math.floor(Date.now()/1000));}, 5000);
 }
 
 var seconds = [];
 var comments = document.getElementsByClassName('b-comment__time');
-var span = document.createElement('span');
 for (var i = 0; i < comments.length; ++i)
 {
     seconds[i] = comments[i].getAttribute('datetime');
-    comments[i].appendChild(span);
+    comments[i].appendChild(document.createElement('span')).className='current_seconds';
 }
 
 setTime(Math.floor(Date.now()/1000));
