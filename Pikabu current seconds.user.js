@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pikabu current seconds
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Сколько прошло секунд?
 // @author       hant0508
 // @match        http://pikabu.ru/story/*
@@ -13,14 +13,16 @@ function setTime(now) {
     {
         var time = now - seconds[i];
         var sec = ' секунд';
+        var end = ' назад)';
 
         if (time % 100 < 10 || time % 100 > 20) {
             if (time % 10 == 1) sec += "a";
             else if (time % 10 < 5 && time % 10) sec += "ы";
+            else end += '&nbsp;';
         }
+        else end += '&nbsp;';
 
-        sec += ' назад';
-        comments[i].getElementsByClassName('current_seconds')[0].innerHTML = ' (' + time + sec + ')';
+        comments[i].getElementsByClassName('current_seconds')[0].innerHTML = ' (' + time + sec + end;
     }
     window.setTimeout (function(){setTime(Math.floor(Date.now()/1000));}, 5000);
 }
