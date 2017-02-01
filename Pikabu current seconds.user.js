@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pikabu current seconds
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Сколько прошло секунд?
 // @author       hant0508
 // @match        http://pikabu.ru/story/*
